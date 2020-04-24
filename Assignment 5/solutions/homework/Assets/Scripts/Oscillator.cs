@@ -18,7 +18,6 @@ public class Oscillator : MonoBehaviour
     {
         oldPos = new Vector3(transform.position.x, transform.position.y, transform.position.z);
         oscillationVector = new Vector3(6, 0, 0);
-        uint i = 0;
     }
 
     // Update is called once per frame

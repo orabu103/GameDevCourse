@@ -22,9 +22,6 @@ public class heart : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-
-     
-
         uint i = 0;
         float phase = speed * Time.time + i * deltaPhase ;
         transform.localScale = oldPos + oscillationVector * (Mathf.Sin(phase) + 4) ;
