@@ -23,9 +23,9 @@ public class Circle : MonoBehaviour
     {
         if (Input.GetKey(KeyCode.LeftArrow))
         {
-            if (rotate >= 360)
+            if (rotate <= 0)
             {
-                rotate = 0;
+                rotate = 360;
             }
             rotate = rotate - 150 * Time.deltaTime;
             transform.rotation = Quaternion.Euler(0, rotate, 0);
