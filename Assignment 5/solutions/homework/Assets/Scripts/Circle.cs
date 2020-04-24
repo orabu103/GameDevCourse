@@ -6,7 +6,7 @@ public class Circle : MonoBehaviour
 {
 
     [Tooltip("in meters per second")]
-    [SerializeField] float speed = 10;
+    [SerializeField] float radios = 10;
 
     [Tooltip("in meters per second")]
     [SerializeField] float rotate = 0; 
@@ -14,7 +14,8 @@ public class Circle : MonoBehaviour
     void Start()
     {
         transform.position = new Vector3(1, 1, 6);
-        
+     rotate = 0;
+
     }
 
     // Update is called once per frame
@@ -22,23 +23,23 @@ public class Circle : MonoBehaviour
     {
         if (Input.GetKey(KeyCode.LeftArrow))
         {
-            if (rotate == 360)
+            if (rotate >= 360)
             {
                 rotate = 0;
             }
             rotate = rotate - 150 * Time.deltaTime;
             transform.rotation = Quaternion.Euler(0, rotate, 0);
-            transform.Translate(-(speed * Time.deltaTime), 0, 0);
+            transform.Translate(-(radios * Time.deltaTime), 0, 0);
         }
         else if (Input.GetKey(KeyCode.RightArrow))
         {
-            if (rotate == 360)
+            if (rotate >= 360)
             {
                 rotate = 0;
             }
             rotate = rotate + 150 * Time.deltaTime;
             transform.rotation = Quaternion.Euler(0, rotate, 0);
-            transform.Translate(speed * Time.deltaTime, 0, 0);
+            transform.Translate(radios * Time.deltaTime, 0, 0);
         }
     
     }
