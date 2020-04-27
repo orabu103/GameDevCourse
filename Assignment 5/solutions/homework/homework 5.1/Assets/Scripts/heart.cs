@@ -6,7 +6,7 @@ public class heart : MonoBehaviour
 {
     // Start is called before the first frame update
     [Tooltip("in meters per second")]
-    [SerializeField] float speed = 3;
+    [SerializeField] float speed = 1;
 
     [Header("Oscillation - Amplitude & Direction")]
     public Vector3 oscillationVector;
@@ -24,7 +24,7 @@ public class heart : MonoBehaviour
     {
         uint i = 0;
         float phase = speed * Time.time + i * deltaPhase ;
-        transform.localScale = oldPos + oscillationVector * (Mathf.Sin(phase) + 4) ;
+        transform.localScale = oldPos + oscillationVector * (Mathf.Sin(phase) + 2) ;
         i++;
 
     }

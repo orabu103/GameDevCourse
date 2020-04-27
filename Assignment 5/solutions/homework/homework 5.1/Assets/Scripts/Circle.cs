@@ -13,7 +13,7 @@ public class Circle : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        transform.position = new Vector3(1, 1, 6);
+        
      rotate = 0;
 
     }
