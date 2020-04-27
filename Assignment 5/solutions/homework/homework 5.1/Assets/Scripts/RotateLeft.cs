@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class RotateSide : MonoBehaviour
+public class RotateLeft : MonoBehaviour
 {
     // Start is called before the first frame update
     [Tooltip("In units per second")]

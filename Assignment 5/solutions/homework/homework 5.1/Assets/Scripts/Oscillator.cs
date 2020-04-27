@@ -6,7 +6,7 @@ public class Oscillator : MonoBehaviour
 {
 
     [Tooltip("in meters per second")]
-    [SerializeField] float speed = 3;
+    [SerializeField] float speed = 2;
 
     [Header("Oscillation - Amplitude & Direction")]
     public Vector3 oscillationVector;
