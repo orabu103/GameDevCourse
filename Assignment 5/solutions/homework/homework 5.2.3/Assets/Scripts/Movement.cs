@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Movement : MonoBehaviour
 {
-    [SerializeField] float speed;
+    [SerializeField] float speed = 10f;
     // Start is called before the first frame update
     void Start()
     {
@@ -14,21 +14,40 @@ public class Movement : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.DownArrow))
+        if (Input.GetKey(KeyCode.UpArrow) && Input.GetKey(KeyCode.RightArrow))
         {
-            transform.position += new Vector3(0, speed * Time.deltaTime * -1, 0);
+            transform.position += new Vector3(speed * Time.deltaTime, 0, speed * Time.deltaTime);
         }
-        else if (Input.GetKeyDown(KeyCode.UpArrow))
+        else if (Input.GetKey(KeyCode.UpArrow) && Input.GetKey(KeyCode.LeftArrow))
         {
-            transform.position += new Vector3(0, speed * Time.deltaTime, 0);
+            transform.position += new Vector3(-speed * Time.deltaTime, 0, speed * Time.deltaTime);
+
         }
-        else if (Input.GetKeyDown(KeyCode.RightArrow))
+        else if (Input.GetKey(KeyCode.DownArrow) && Input.GetKey(KeyCode.LeftArrow))
+        {
+            transform.position += new Vector3(-speed * Time.deltaTime, 0, -speed * Time.deltaTime);
+
+        }
+        else if (Input.GetKey(KeyCode.DownArrow) && Input.GetKey(KeyCode.RightArrow))
+        {
+            transform.position += new Vector3(speed * Time.deltaTime, 0, -speed * Time.deltaTime);
+        }
+        else if (Input.GetKey(KeyCode.UpArrow))
+        {
+            transform.position += new Vector3(0, 0, speed * Time.deltaTime);
+        }
+        else if (Input.GetKey(KeyCode.DownArrow))
+        {
+            transform.position += new Vector3(0, 0, -speed * Time.deltaTime);
+        }
+        else if (Input.GetKey(KeyCode.LeftArrow))
+        {
+            transform.position += new Vector3(-speed * Time.deltaTime, 0, 0);
+        }
+        else if (Input.GetKey(KeyCode.RightArrow))
         {
             transform.position += new Vector3(speed * Time.deltaTime, 0, 0);
         }
-        else if (Input.GetKeyDown(KeyCode.LeftArrow))
-        {
-            transform.position += new Vector3(speed * Time.deltaTime * -1, 0, 0);
-        }
+
     }
 }
