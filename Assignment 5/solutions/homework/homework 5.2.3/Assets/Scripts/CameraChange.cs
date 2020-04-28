@@ -12,7 +12,9 @@ public class CameraChange : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
+        camera1.gameObject.active = true;
+        camera2.gameObject.active = false;
+
     }
 
     // Update is called once per frame
@@ -20,10 +22,10 @@ public class CameraChange : MonoBehaviour
    
     void Update()
     {
-            if (Input.GetKey(KeyCode.M))
+            if (Input.GetKeyDown(KeyCode.M))
              {
                 if (!b) { 
-                     camera1.gameObject.active = false;
+                    camera1.gameObject.active = false;
                     camera2.gameObject.active = true;
                     b = true;
                 }
