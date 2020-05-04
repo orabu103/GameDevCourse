@@ -18,16 +18,16 @@ public class KeyboardMover: MonoBehaviour {
         
         if (transform.position.x > 10f)
         {
-            transform.position = new Vector3(-10, 0, 0);
+            transform.position = new Vector3(-10, transform.position.y, transform.position.z);
         }
         else if(transform.position.x < -10f)
         {
-            transform.position = new Vector3(10, 0, 0);
+            transform.position = new Vector3(10, transform.position.y, transform.position.z);
         }
 
-        if(transform.position.y < -3.7f)
+        if(transform.position.y < -4.1f)
         {
-            transform.position = new Vector3(transform.position.x, -3.7f, transform.position.z);
+            transform.position = new Vector3(transform.position.x, -4.1f, transform.position.z);
         }
         if (transform.position.y > 4.05f)
         {

@@ -9,15 +9,6 @@ public class WallClimber : MonoBehaviour
 
     void Update() {
         transform.position += speed * Time.deltaTime;
-
-        if (transform.position.x > 10f)
-        {
-            transform.position = new Vector3(-10, transform.position.y, transform.position.z);
-        }
-        else if (transform.position.x < -10f)
-        {
-            transform.position = new Vector3(-10, transform.position.y, transform.position.z);
-        }
     }
 
     private void OnCollisionEnter2D(Collision2D collision) {
