@@ -251,17 +251,17 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 5353532350715814303, guid: 06a6484277ad48748acd4c97a36cc13f,
+        type: 3}
+      propertyPath: m_Name
+      value: PowerSpawners
+      objectReference: {fileID: 0}
     - target: {fileID: 4507281234410202206, guid: 06a6484277ad48748acd4c97a36cc13f,
         type: 3}
       propertyPath: prefabToSpawn
       value: 
       objectReference: {fileID: 1249238048472280126, guid: dca362e48bf6b204c9b4bdab47c8c6d5,
         type: 3}
-    - target: {fileID: 5353532350715814303, guid: 06a6484277ad48748acd4c97a36cc13f,
-        type: 3}
-      propertyPath: m_Name
-      value: PowerSpawners
-      objectReference: {fileID: 0}
     - target: {fileID: 6004606560309639048, guid: 06a6484277ad48748acd4c97a36cc13f,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -513,6 +513,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 5353532350715814303, guid: 06a6484277ad48748acd4c97a36cc13f,
+        type: 3}
+      propertyPath: m_Name
+      value: ShirldSpawners
+      objectReference: {fileID: 0}
     - target: {fileID: 4507281234410202206, guid: 06a6484277ad48748acd4c97a36cc13f,
         type: 3}
       propertyPath: maxYDistance
@@ -533,11 +538,6 @@ PrefabInstance:
         type: 3}
       propertyPath: maxTimeBetweenSpawns
       value: 10
-      objectReference: {fileID: 0}
-    - target: {fileID: 5353532350715814303, guid: 06a6484277ad48748acd4c97a36cc13f,
-        type: 3}
-      propertyPath: m_Name
-      value: ShirldSpawners
       objectReference: {fileID: 0}
     - target: {fileID: 6004606560309639048, guid: 06a6484277ad48748acd4c97a36cc13f,
         type: 3}
@@ -1043,7 +1043,7 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1881528157}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
@@ -1065,7 +1065,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 413bf45bd838be34f956a691a2c8a9b8, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0

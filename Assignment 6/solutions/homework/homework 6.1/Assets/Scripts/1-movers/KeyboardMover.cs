@@ -15,7 +15,7 @@ public class KeyboardMover: MonoBehaviour {
         float vertical = Input.GetAxis("Vertical");     // +1 if up arrow is pushed, -1 if down arrow is pushed, 0 otherwise
         Vector3 movementVector = new Vector3(horizontal, vertical, 0) * speed * Time.deltaTime;
         transform.position += movementVector;
-
+        
         if (transform.position.x > 10f)
         {
             transform.position = new Vector3(-10, 0, 0);
@@ -23,6 +23,15 @@ public class KeyboardMover: MonoBehaviour {
         else if(transform.position.x < -10f)
         {
             transform.position = new Vector3(10, 0, 0);
+        }
+
+        if(transform.position.y < -3.7f)
+        {
+            transform.position = new Vector3(transform.position.x, -3.7f, transform.position.z);
+        }
+        if (transform.position.y > 4.05f)
+        {
+            transform.position = new Vector3(transform.position.x, 4.05f, transform.position.z);
         }
         //transform.Translate(movementVector);
         // NOTE: "Translate(movementVector)" uses relative coordinates - 
