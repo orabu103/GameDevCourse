@@ -8,26 +8,24 @@ public class ShieldThePlayer : MonoBehaviour {
 
     private void OnTriggerEnter2D(Collider2D other) {
 
-
-        if (this.tag == "Power")
-        {
-            Debug.Log("Power triggered by player");
-            KeyboardSpawner player = other.transform.GetComponent<KeyboardSpawner>();
-            if (player != null)
-                player.TripleShotActive();
-            Destroy(this.gameObject);  // Power the shield itself - prevent double-use q
-        }
-        else if (this.tag == "Shield")
+        if (other.tag == "Player")
         {
             KeyboardSpawner player = other.transform.GetComponent<KeyboardSpawner>();
-            if (player != null)
-                player.SheildRoutine();
-            Destroy(this.gameObject);  // Power the shield itself - prevent double-use
+            if (this.tag == "Power")
+            {
+                Debug.Log("Power triggered by player");
+                if (player != null)
+                    player.TripleShotActive();
+                Destroy(this.gameObject);  // Power the shield itself - prevent double-use q
+            }
+            if (this.tag == "Shield")
+            {
+                if (player != null)
+                    player.SheildRoutine();
+                Destroy(this.gameObject);  // Power the shield itself - prevent double-use
+            }
         }
-        else
-        {
-            Debug.Log("Shield triggered by " + other.name);
-        }
+ 
         
     }
     private IEnumerator ShieldTemporarily(DestroyOnTrigger2D destroyComponent) {

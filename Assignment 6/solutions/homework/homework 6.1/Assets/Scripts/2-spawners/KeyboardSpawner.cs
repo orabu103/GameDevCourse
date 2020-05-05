@@ -37,9 +37,6 @@ public class KeyboardSpawner: MonoBehaviour {
             newObjectMover.SetVelocity(velocityOfSpawnedObject);
         }
         
-
-
-
         return newObject;
     }
 
@@ -72,7 +69,12 @@ public class KeyboardSpawner: MonoBehaviour {
             Vector3 positionOfSpawnedObject = transform.position;  // span at the containing object position.
             Quaternion rotationOfSpawnedObject = Quaternion.identity;  // no rotation.
             newObject = Instantiate(Shield, positionOfSpawnedObject, rotationOfSpawnedObject);
-            
+            Mover newObjectMover = newObject.GetComponent<Mover>();
+            if (newObjectMover)
+            {
+                newObjectMover.SetVelocity(velocityOfSpawnedObject);
+            }
+
         }
         StartCoroutine(SheildRoutinelow(newObject));
         
