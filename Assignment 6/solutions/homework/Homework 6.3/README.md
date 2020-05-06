@@ -7,11 +7,11 @@
 
 <h4>Features -</h4>
 <p><strong>
-<img src="./Assets/Pictures/space.png" width="50px" height="50px" /> Power - </strong>
-The player will receive 2 points for each enemy he kills </p>
+<img src="./Assets/Pictures/space.png" width="50px" height="50px" /> Enemy - </strong>
+The player must avoid hitting the enemy and try to shoot at it </p>
 <p><strong> 
-<img src="./Assets/Images/portal_SE.png" width="40px" height="60px" /> Enemy - </strong> 
-The player must kill the enemy</p>
+<img src="./Assets/Pictures/miscellaneous.png" width="40px" height="60px" /> Enemy - </strong> 
+The player must avoid hitting the enemy and try to shoot at it</p>
 <p><strong> 
 <img src="./Assets/Images/Space.png" width="50px" height="50px" /> Player - </strong>
 The player's spacecraft can move with the up and down arrows left and right</p>
