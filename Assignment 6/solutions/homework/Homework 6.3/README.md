@@ -13,11 +13,14 @@ The player must avoid hitting the enemy and try to shoot at it </p>
 <img src="./Assets/Pictures/miscellaneous.png" width="40px" height="60px" /> Enemy - </strong> 
 The player must avoid hitting the enemy and try to shoot at it</p>
 <p><strong> 
-<img src="./Assets/Images/Space.png" width="50px" height="50px" /> Player - </strong>
+<img src="./Assets/Pictures/nature.png" width="40px" height="60px" /> Enemy - </strong> 
+The player must avoid hitting the enemy and try to shoot at it</p>
+<p><strong> 
+<img src="./Assets/Pictures/spacship.png" width="50px" height="50px" /> Player - </strong>
 The player's spacecraft can move with the up and down arrows left and right</p>
 <p><strong> 
-<img src="./Assets/Images/star.png" width="50px" height="50px" />Life - </strong>
-The player's life, in every game, the player has 3 stars of life</p><br>
+<img src="./Assets/Images/star.png" width="50px" height="50px" />weapon - </strong>
+The player's weapon, can shoot by hitting the spacebar </p><br>
 
 <h4>Video of the game for the first section of the assignment -</h4>
 <img src="./Assets/Images/game.gif" width="500px" height="300px" />
