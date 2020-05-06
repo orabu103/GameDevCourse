@@ -21,7 +21,9 @@ The player's life, in every game, the player has 3 stars of life</p><br>
 <img src="./Assets/Images/game.gif" width="500px" height="300px" />
 <p><ul>
  
-<li>In this video you can see when the player gathers power, his shots change and when he kills, 2 points are added.</li>
+<li>In this video you can see when the player gathers power, his shots change and when he kills, 2 points are added.
+<a href="./Assets/Scripts/3-collisions/ShieldThePlayer.cs"> TriggerEnter Code </a><strong> And </strong> <a href="/Assets/Scripts/2-spawners/KeyboardSpawner.cs"> Laser creation Code </a></li>
+
 <li>In addition, when it collects a shield, a white circle is formed around the spacecraft and disappears after a certain time, <br>
 or after the player collides with an enemy, or when the player collides at the bottom of the screen.</li>
 <li>You can see that the player has three stars, and when he collides with the enemy, he drops a star.</li></p>
