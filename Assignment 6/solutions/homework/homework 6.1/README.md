@@ -26,7 +26,7 @@ The player's life, in every game, the player has 3 stars of life</p><br>
 or after the player collides with an enemy, or when the player collides at the bottom of the screen.</li>
 <li>You can see that the player has three stars, and when he collides with the enemy, he drops a star.</li></p>
 
-<h4>Video of the game for the first section of the assignment -</h4>
-<img src="./Assets/Images/game.png" width="500px" height="300px" />
+<h4>Video of the game for the second section of the assignment -</h4>
+<img src="./Assets/Images/World.gif" width="500px" height="300px" />
 
 
