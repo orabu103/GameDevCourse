@@ -25,8 +25,14 @@ The player's life, in every game, the player has 3 stars of life</p><br>
 <li>In addition, when it collects a shield, a white circle is formed around the spacecraft and disappears after a certain time, <br>
 or after the player collides with an enemy, or when the player collides at the bottom of the screen.</li>
 <li>You can see that the player has three stars, and when he collides with the enemy, he drops a star.</li></p>
+</ul>
 
 <h4>Video of the game for the second section of the assignment -</h4>
 <img src="./Assets/Images/World.gif" width="500px" height="300px" />
 
 
+<p><ul>
+ <li>In this game can be seen when the player reaches the end of the screen on the right it appears on the left,<br> so the world is round</li>
+<li>When the player collides with the wall at the bottom of the screen he cannot keep moving down</li>
+<li>When the enemy collides with the wall at the bottom of the screen, it is destroyed</li>
+<li>When the lasers reaches the end of the screen, they disappear</li>
