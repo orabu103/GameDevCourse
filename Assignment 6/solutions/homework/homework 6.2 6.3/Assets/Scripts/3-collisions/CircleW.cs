@@ -18,7 +18,12 @@ public class CircleW : MonoBehaviour
             {
                 player.transform.position = new Vector3(10, player.transform.position.y, 0);
             }
-           
+            else if (player.transform.position.y > 4.5f)
+            {
+                player.transform.position = new Vector3(player.transform.position.x,-4.5f , 0);
+            }
+
+
         }
 
         }
