@@ -26,7 +26,8 @@ The player's life, in every game, the player has 3 stars of life</p><br>
 
 <li>In addition, when it collects a shield, a white circle is formed around the spacecraft and disappears after a certain time, <br>
 or after the player collides with an enemy, or when the player collides at the bottom of the screen.</li>
-<li>You can see that the player has three stars, and when he collides with the enemy, he drops a star.</li></p>
+<li>You can see that the player has three stars, and when he collides with the enemy, he drops a star.
+<a href="./Assets/Scripts/3-collisions/DestroyOnTrigger2D.cs"> Code of Life </a></li></li></p>
 </ul>
 
 <h4>Video of the game for the second section of the assignment -</h4>
