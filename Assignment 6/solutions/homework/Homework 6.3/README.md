@@ -33,6 +33,6 @@ The player's weapon, can shoot by hitting the spacebar </p><br>
 
 
 
-<li>When the rocket hit an asteroid it explode with the asteroidr and disapear </li></li></li>
+<li>When the rocket hit an asteroid it explode with the asteroid and disapear </li></li></li>
 
 
