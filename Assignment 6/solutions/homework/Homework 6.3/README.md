@@ -1,7 +1,6 @@
 # Evil asteroids Game
  <a href="https://orabu103.itch.io/evil-asteroids">Click here to play</a>
  
- # Spaceship game
 <h4>About The Project -</h4>
 <p>In this game, the player has to run away from asteroids and shoot as much as possible asteroids</p>
 
