@@ -24,7 +24,7 @@ The player's weapon, can shoot by hitting the spacebar </p><br>
  
 
 <h4>Video description of the game  -</h4>
-<img src="./Assets/gameDescription.gif" width="500px" height="300px" />
+<img src="./Assets/gameDescription.gif" width="560px" height="300px" />
 
 
 
