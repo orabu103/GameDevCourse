@@ -1,7 +1,7 @@
 
 
 # BibiGun game
- <a href="https://orabu103.itch.io/spaceship">Click here to play</a>
+ <a href="https://orabu103.itch.io/bibigun">Click here to play</a>
 <h4>About The Project -</h4>
 <p>In this game, the player has to run away from enemies and kill as much as possible to earn the highest score</p>
 
