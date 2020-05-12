@@ -14,7 +14,7 @@ The player gets a stronger shot </p>
 <img src="./Assets/Sprites/cow_r.png" width="50px" height="50px" /> Enemy - </strong> 
 The player must kill the enemy in one shot ,And if the player collides with it he loses 1 lives</p>
 <p><strong> 
-<img src="./Assets/Sprites/Big_cow_r.png" width="50px" height="50px" /> Big Enemy - </strong>
+<img src="./Assets/Sprites/big_cow_r.png" width="50px" height="50px" /> Big Enemy - </strong>
 The player must kill the enemy in ten shot ,and if the player collides with it he loses 2 lives</p>
 <p><strong> 
 <img src="./Assets/Sprites/star_laser.png" width="50px" height="50px" />Power - </strong>
