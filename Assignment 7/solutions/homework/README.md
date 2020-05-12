@@ -5,16 +5,16 @@
 
 <h4>Features -</h4>
 <p><strong> 
-<img src="./Assets/Sprites/astronautPlayer/BIBI/astronyahu.png" width="90px" height="60px" />Player - </strong>
+<img src="./Assets/Sprites/Bibi_r.png"  width="50px" height="50px" />Player - </strong>
 The player's life, in every game, the player has three lives</p><br>
 <p><strong>
-<img src="./Assets/Sprites/power_up.png" width="90px" height="60px" /> Power Up - </strong>
+<img src="./Assets/Sprites/power_up_r.png" width="50px" height="50px" /> Power Up - </strong>
 The player gets a stronger shot </p>
 <p><strong> 
-<img src="./Assets/Sprites/cow.png" width="60px" height="80px" /> Enemy - </strong> 
+<img src="./Assets/Sprites/cow_r.png" width="50px" height="50px" /> Enemy - </strong> 
 The player must kill the enemy in one shot ,And if the player collides with it he loses 1 lives</p>
 <p><strong> 
-<img src="./Assets/Sprites/HamasCow.png" width="60px" height="80px" /> Big Enemy - </strong>
+<img src="./Assets/Sprites/Big_cow_r.png" width="50px" height="50px" /> Big Enemy - </strong>
 The player must kill the enemy in ten shot ,and if the player collides with it he loses 2 lives</p>
 <p><strong> 
 <img src="./Assets/Sprites/star_laser.png" width="50px" height="50px" />Power - </strong>
