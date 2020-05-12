@@ -5,20 +5,20 @@
 
 <h4>Features -</h4>
 <p><strong> 
-<img src="./Assets/Sprites/astronautPlayer/BIBI/astronyahu.png" width="90px" height="60px" />Life - </strong>
-The player's life, in every game, the player has 3 stars of life</p><br>
+<img src="./Assets/Sprites/astronautPlayer/BIBI/astronyahu.png" width="90px" height="60px" />Player - </strong>
+The player's life, in every game, the player has three lives</p><br>
 <p><strong>
-<img src="./Assets/Sprites/power_up.png" width="90px" height="60px" /> Power - </strong>
-The player will receive 2 points for each enemy he kills </p>
+<img src="./Assets/Sprites/power_up.png" width="90px" height="60px" /> Power Up - </strong>
+The player gets a stronger shot </p>
 <p><strong> 
 <img src="./Assets/Sprites/cow.png" width="60px" height="80px" /> Enemy - </strong> 
-The player must kill the enemy</p>
+The player must kill the enemy in one shot ,And if the player collides with it he loses 1 lives</p>
 <p><strong> 
-<img src="./Assets/Sprites/HamasCow.png" width="60px" height="80px" /> Player - </strong>
-The player's spacecraft can move with the up and down arrows left and right</p>
+<img src="./Assets/Sprites/HamasCow.png" width="60px" height="80px" /> Big Enemy - </strong>
+The player must kill the enemy in ten shot ,and if the player collides with it he loses 2 lives</p>
 <p><strong> 
-<img src="./Assets/Sprites/star_laser.png" width="50px" height="50px" />Life - </strong>
-The player's life, in every game, the player has 3 stars of life</p><br>
+<img src="./Assets/Sprites/star_laser.png" width="50px" height="50px" />Power - </strong>
+The player's shot when he blows an enemy he gets 10 points</p><br>
 
 
 <h4>Video of the game for the first section of the assignment -</h4>
