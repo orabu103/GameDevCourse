@@ -41,31 +41,12 @@ The player's life, in every game, the player has three lives</p><br>
 
 
 
-<h4>Video of the game for the second section of the assignment -</h4>
-<img src="./Assets/Gif/power.gif" width="500px" height="300px" />
-
-
-<p><ul>
- <li>In this game can be seen when the player reaches the end of the screen on the right it appears on the left,<br> so the world is round <a href="./Assets/Scripts/3-collisions/CircleW.cs">Code</a></li>
-
-<li>When the player collides with the wall at the bottom of the screen he cannot keep moving down <a href="./Assets/Scripts/3-collisions/WallB.cs">Code</a></li>
-
-<li>When the enemy collides with the wall at the bottom of the screen, it is destroyed <a href="./Assets/Scripts/3-collisions/DestroyObeject.cs">Code</a></li></li>
-
-
-<li>When the lasers reaches the end of the screen, they disappear <a href="./Assets/Scripts/3-collisions/DestroyObeject.cs">Code</a></li></li></li></ul>
-
-
-<h4>Video of the game for the second section of the assignment -</h4>
+<h4>Object collision video -</h4>
 <img src="./Assets/Gif/newlife.gif" width="500px" height="300px" />
 
 <p><ul>
- <li>In this game can be seen when the player reaches the end of the screen on the right it appears on the left,<br> so the world is round <a href="./Assets/Scripts/3-collisions/CircleW.cs">Code</a></li>
-
-<li>When the player collides with the wall at the bottom of the screen he cannot keep moving down <a href="./Assets/Scripts/3-collisions/WallB.cs">Code</a></li>
-
-<li>When the enemy collides with the wall at the bottom of the screen, it is destroyed <a href="./Assets/Scripts/3-collisions/DestroyObeject.cs">Code</a></li></li>
-
-
-<li>When the lasers reaches the end of the screen, they disappear <a href="./Assets/Scripts/3-collisions/DestroyObeject.cs">Code</a></li></li></li></ul>
+<li>When the player collides with the enemy, he loses one life</li>
+<liWhen the player collides with the big enemy, he loses two lives</li>
+<liWhen the player collides with the enemy there is the sound of a cow</li>
+</ul>
 
