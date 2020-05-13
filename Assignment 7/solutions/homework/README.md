@@ -6,25 +6,26 @@
 <p>In this game, the player has to run away from enemies and kill as much as possible to earn the highest score</p>
 
 <h4>Features -</h4>
-<p><strong> 
+<p>
+<strong> 
 <img src="./Assets/Sprites/Bibi_r.png"  width="50px" height="50px" />Player - </strong>
- The player's spacecraft can move with the up and down arrows left and right</p><br>
-<p><strong>
+ The player's spacecraft can move with the up and down arrows left and right<br>
+<strong>
 <img src="./Assets/Sprites/power_up_r.png" width="50px" height="50px" /> Power Up - </strong>
-The player gets a stronger shot </p>
-<p><strong> 
+The player gets a stronger shot <br>
+<strong> 
 <img src="./Assets/Sprites/cow_r.png" width="50px" height="50px" /> Enemy - </strong> 
-The player must kill the enemy in one shot ,And if the player collides with it he loses 1 lives</p>
-<p><strong> 
+The player must kill the enemy in one shot ,And if the player collides with it he loses 1 lives<br>
+<strong> 
 <img src="./Assets/Sprites/big_cow_r.png" width="50px" height="50px" /> Big Enemy - </strong>
-The player must kill the enemy in ten shot ,and if the player collides with it he loses 2 lives</p>
-<p><strong> 
+The player must kill the enemy in ten shot ,and if the player collides with it he loses 2 lives<br>
+<strong> 
 <img src="./Assets/Sprites/star_laser.png" width="50px" height="50px" />Power - </strong>
-The player's shot when he blows an enemy he gets 10 points</p><br>
-<p><strong> 
+The player's shot when he blows an enemy he gets 10 points><br>
+<strong> 
 <img src="./Assets/Sprites/heart_powerup.png" width="50px" height="50px" />Life - </strong>
-The player's life, in every game, the player has three lives</p><br>
-
+The player's life, in every game, the player has three lives<br>
+</p>
 
 <h4>Video of the Big Enemy -</h4>
 <img src="./Assets/Gif/Bigcow.gif" width="500px" height="300px" />
@@ -60,3 +61,7 @@ The player's life, in every game, the player has three lives</p><br>
 <li>When the player shoots the triple shot</li>
 <li>When the great enemy comes</li>
 </ul>
+
+<h4>Some assets are taken from -</h4>
+<p></strong> <a href="https://freesound.org/browse/"> FreeSound.org </a> Sounds of the game</p>
+
