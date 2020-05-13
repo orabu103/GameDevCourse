@@ -64,4 +64,6 @@ The player's life, in every game, the player has three lives<br>
 
 <h4>Some assets are taken from -</h4>
 <p></strong> <a href="https://freesound.org/browse/"> FreeSound.org </a> Sounds of the game</p>
+<p></strong> <a href="https://github.com/maoz-grossman/BibiGun"> FreeSound.org </a> The original project</p>
+
 
