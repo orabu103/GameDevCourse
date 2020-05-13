@@ -33,8 +33,10 @@ The player's life, in every game, the player has three lives</p><br>
 <li>In the video it can be seen that the big enemy comes after accumulating 100 points.
 </strong> <a href="./Assets/Script/Player.cs"> The appearance of the big enemy </a></li>
 
-<li>To kill the big enemy the player has to hit him with the shots 10 times.</li>
+<li>To kill the big enemy the player has to hit him with the shots 10 times.
 </strong> <a href="./Assets/Script/DbigEnemy.cs"> Killing the big enemy </a></li>
+
+<li>After the player reaches the Modulo 100 score, big enemies appear at the level the player is at</li>
 
 <li>When the Big Enemy is create, a police sound is activated.</li>
 </ul>
@@ -46,7 +48,15 @@ The player's life, in every game, the player has three lives</p><br>
 
 <p><ul>
 <li>When the player collides with the enemy, he loses one life</li>
-<liWhen the player collides with the big enemy, he loses two lives</li>
-<liWhen the player collides with the enemy there is the sound of a cow</li>
+<li>When the player collides with the big enemy, he loses two lives</li>
+<li>When the player collides with the enemy there is the sound of a cow</li>
 </ul>
 
+<h4>Sounds -</h4>
+
+<p><ul>
+<li>When the player shoots the simple shot</li>
+<li>When the player collides with the enemy</li>
+<li>When the player shoots the triple shot</li>
+<li>When the great enemy comes</li>
+</ul>
